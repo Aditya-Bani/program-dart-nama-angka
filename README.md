@@ -21,4 +21,5 @@ Ini adalah program sederhana yang meminta pengguna untuk memasukkan nama dan ang
 6. Setelah Anda memasukkan nilai, program akan mencetak output sesuai dengan format yang ditentukan.
 
 Sehingga output nya menjadi seperti dibawah ini :
+
 ![imglogin](output.png)
