@@ -1,25 +1,27 @@
-# Program Dart - Nama dan Angka
+# Program Validasi Password
 
-Ini adalah program sederhana yang meminta pengguna untuk memasukkan nama dan angka, lalu mencetak output sesuai dengan format yang ditentukan.
+Program ini dibuat menggunakan Dart dan berfungsi untuk memvalidasi password yang dimasukkan oleh pengguna.
 
-## Cara Menjalankan Program
+## Prerequisites
 
-1. Pastikan Anda telah menginstal Dart SDK di komputer Anda. Jika belum, Anda dapat mengunduhnya dari [dart.dev](https://dart.dev/get-dart).
+Pastikan Anda telah menginstal Dart SDK sebelum menjalankan program ini.
 
-2. Salin kode program Dart ke dalam file dengan ekstensi `.dart`, misalnya `main.dart`.
+## Cara Menjalankan
 
-3. Buka terminal atau command prompt, lalu arahkan ke direktori tempat file `main.dart` disimpan.
+1. Clone repositori ini ke mesin lokal Anda.
+2. Buka terminal dan arahkan ke direktori repositori yang telah di-clone.
+3. Jalankan program dengan perintah berikut:
+4. Masukkan password yang ingin Anda validasi saat diminta.
+5. Program akan menampilkan pesan sesuai dengan persyaratan password yang telah ditentukan.
 
-4. Jalankan program dengan perintah berikut:
+## Kriteria Password
 
-   ```shell
-   dart main.dart
-   ```
+Password harus memenuhi kriteria berikut:
 
-5. Program akan meminta Anda untuk memasukkan nama dan angka melalui terminal.
+- Minimal 6 karakter
+- Minimal 1 huruf kapital
+- Minimal satu karakter khusus (!, @, #, $, &, \*, .)
 
-6. Setelah Anda memasukkan nilai, program akan mencetak output sesuai dengan format yang ditentukan.
-
-Sehingga output nya menjadi seperti dibawah ini :
+## Contoh Penggunaan
 
 ![imglogin](output.png)
